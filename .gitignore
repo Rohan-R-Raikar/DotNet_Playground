@@ -1,0 +1,32 @@
+# Build Folders
+bin/
+obj/
+out/
+
+# Visual Studio Files
+.vs/
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+
+# Rider IDE
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Publish Folder
+publish/

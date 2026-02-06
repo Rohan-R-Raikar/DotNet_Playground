@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CertAuthTest", "CertAuthTest\CertAuthTest.csproj", "{302D9E0A-C014-4361-A17A-2A16829C39CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{302D9E0A-C014-4361-A17A-2A16829C39CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302D9E0A-C014-4361-A17A-2A16829C39CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302D9E0A-C014-4361-A17A-2A16829C39CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302D9E0A-C014-4361-A17A-2A16829C39CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {649333F7-CFC6-4F5F-B3A3-77EF9E1DCC92}
+	EndGlobalSection
+EndGlobal
