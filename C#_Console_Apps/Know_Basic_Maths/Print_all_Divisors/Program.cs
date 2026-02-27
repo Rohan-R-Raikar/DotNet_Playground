@@ -4,15 +4,16 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter a number:");
             int num = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = 1; i <= num; i++)
-            {
-                if(num % i == 0)
-                {
-                    Console.WriteLine(i);
-                }
-            }
+            // Call the original method
+            Console.WriteLine("Original method:");
+            DivisorHelper.PrintDivisors(num);
+
+            // Call the optimized method
+            Console.WriteLine("\nOptimized method using List and square root:");
+            DivisorHelperOptimized.PrintDivisors(num);
         }
     }
 }
