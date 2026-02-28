@@ -11,7 +11,8 @@ namespace Check_for_Prime_Number
         // √N Method (Your First Code) — O(√N)
         public static void CheckPrime(int Number)
         {
-            Console.WriteLine("START ==========================Square_Root_Approach==========================");
+            Console.WriteLine();
+            Console.WriteLine("==========================Square_Root_Approach========================== START");
 
             int counter = 0;
 
@@ -34,6 +35,7 @@ namespace Check_for_Prime_Number
                 Console.WriteLine("Not Prime");
 
             Console.WriteLine("==========================Square_Root_Approach========================== END");
+            Console.WriteLine();
         }
     }
 }

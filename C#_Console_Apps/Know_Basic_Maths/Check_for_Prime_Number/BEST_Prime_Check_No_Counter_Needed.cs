@@ -11,7 +11,10 @@ namespace Check_for_Prime_Number
     {
         public static void CheckPrime(int Number)
         {
-            if (Number <= 0)
+            Console.WriteLine();
+            Console.WriteLine("==========================BEST_Prime_Check_No_Counter_Needed========================== START");
+
+            if (Number <= 1)
             {
                 Console.WriteLine("Not Prime");
                 return;
@@ -19,7 +22,7 @@ namespace Check_for_Prime_Number
 
             bool isPrime = true;
 
-            for (int i = 0; i*i <= Number; i++)
+            for (int i = 2; i * i <= Number; i++)
             {
                 if (Number % i == 0)
                 {
@@ -27,10 +30,14 @@ namespace Check_for_Prime_Number
                     break;
                 }
             }
+
             if (isPrime)
                 Console.WriteLine("Prime");
             else
                 Console.WriteLine("Not Prime");
+
+            Console.WriteLine("==========================BEST_Prime_Check_No_Counter_Needed========================== END");
+            Console.WriteLine();
         }
     }
 }

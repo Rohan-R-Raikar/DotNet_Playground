@@ -12,7 +12,8 @@ namespace Check_for_Prime_Number
         // i*i <= N Method (Best Single Check)
         public static void CheckPrime(int Number)
         {
-            Console.WriteLine("START ==========================Best_Single_Check_i_into_i==========================");
+            Console.WriteLine();
+            Console.WriteLine("==========================Best_Single_Check_i_into_i========================== START");
 
             int count = 0;
 
@@ -33,6 +34,7 @@ namespace Check_for_Prime_Number
                 Console.WriteLine("Not Prime");
 
             Console.WriteLine("==========================Best_Single_Check_i_into_i========================== END");
+            Console.WriteLine();
         }
     }
 }
