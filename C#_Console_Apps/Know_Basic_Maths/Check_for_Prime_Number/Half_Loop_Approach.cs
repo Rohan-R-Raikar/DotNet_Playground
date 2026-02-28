@@ -6,20 +6,22 @@ using System.Threading.Tasks;
 
 namespace Check_for_Prime_Number
 {
-    // Brute Force Approach — O(N)
-    public static class Brute_Force_Approach
+    // Half Loop Approach — O(N/2)
+    public static class Half_Loop_Approach
     {
         public static void CheckPrime(int Number)
         {
             int count = 0;
 
-            for (int i = 1; i <= Number; i++)
+            for (int i = 1; i <= Number / 2; i++)
             {
                 if (Number % i == 0)
                 {
                     count++;
                 }
             }
+
+            count++;
 
             if (count == 2)
                 Console.WriteLine("Prime");
