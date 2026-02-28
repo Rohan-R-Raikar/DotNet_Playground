@@ -12,6 +12,8 @@
             int Number = Convert.ToInt32(Console.ReadLine());
 
             Brute_Force_Approach.CheckPrime(Number);
+            Half_Loop_Approach.CheckPrime(Number);
+            Square_Root_Approach.CheckPrime(Number);
         }
     }
 }

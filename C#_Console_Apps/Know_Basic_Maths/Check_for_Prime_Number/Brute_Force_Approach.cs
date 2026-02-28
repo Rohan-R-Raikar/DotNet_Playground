@@ -11,6 +11,8 @@ namespace Check_for_Prime_Number
     {
         public static void CheckPrime(int Number)
         {
+            Console.WriteLine("START ==========================Brute_Force_Approach==========================");
+
             int count = 0;
 
             for (int i = 1; i <= Number; i++)
@@ -25,6 +27,8 @@ namespace Check_for_Prime_Number
                 Console.WriteLine("Prime");
             else
                 Console.WriteLine("Not Prime");
+
+            Console.WriteLine("==========================Brute_Force_Approach========================== END");
         }
     }
 }

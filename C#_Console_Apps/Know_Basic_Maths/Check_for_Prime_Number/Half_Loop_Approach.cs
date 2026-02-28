@@ -11,6 +11,8 @@ namespace Check_for_Prime_Number
     {
         public static void CheckPrime(int Number)
         {
+            Console.WriteLine("START ==========================Half_Loop_Approach==========================");
+
             int count = 0;
 
             for (int i = 1; i <= Number / 2; i++)
@@ -27,6 +29,8 @@ namespace Check_for_Prime_Number
                 Console.WriteLine("Prime");
             else
                 Console.WriteLine("Not Prime");
+
+            Console.WriteLine("==========================Half_Loop_Approach========================== END");
         }
     }
 }
