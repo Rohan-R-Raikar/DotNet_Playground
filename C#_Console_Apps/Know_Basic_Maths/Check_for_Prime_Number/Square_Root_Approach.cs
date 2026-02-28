@@ -8,6 +8,7 @@ namespace Check_for_Prime_Number
 {
     public static class Square_Root_Approach
     {
+        // √N Method (Your First Code) — O(√N)
         public static void CheckPrime(int Number)
         {
             Console.WriteLine("START ==========================Square_Root_Approach==========================");

@@ -14,6 +14,7 @@
             Brute_Force_Approach.CheckPrime(Number);
             Half_Loop_Approach.CheckPrime(Number);
             Square_Root_Approach.CheckPrime(Number);
+            Best_Single_Check_i_into_i.CheckPrime(Number);
         }
     }
 }
