@@ -9,7 +9,9 @@
              * A number which is exactly 2 factors 1 & itself.
              */
 
+            int Number = Convert.ToInt32(Console.ReadLine());
 
+            Brute_Force_Approach.CheckPrime(Number);
         }
     }
 }
