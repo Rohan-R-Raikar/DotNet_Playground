@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginCard", "LoginCard.csproj", "{65F0A633-353B-4528-A10A-4D09F0DEBABE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65F0A633-353B-4528-A10A-4D09F0DEBABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F0A633-353B-4528-A10A-4D09F0DEBABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F0A633-353B-4528-A10A-4D09F0DEBABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F0A633-353B-4528-A10A-4D09F0DEBABE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {026EEAB5-A887-4A35-8228-71C1C2721F86}
+	EndGlobalSection
+EndGlobal
